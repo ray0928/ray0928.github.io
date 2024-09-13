@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+   --branco-pricipal: #fff;
+   --cinza-secundario: #c0c0c0;
+   --botao-azul:#167bf7;
+   --cor-de-fundo:#00030c;
+}
+.principal {
+    background-image: url('sportingray.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+   height: 600px;
+}
+
+.container {
+    height: 100vh;
+}
+
+.container_botao {
+    background-color: #f85757;
+    border-radius: 10px;
+    padding: 15px;
+}
