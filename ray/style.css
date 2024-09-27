@@ -8,20 +8,40 @@
    --botao-azul:#167bf7;
    --cor-de-fundo:#00030c;
 }
+body {
+    background-color: #000;
+    color: var(--branco-pricipal);
+
+}
 .principal {
     background-image: url('sportingray.png');
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
-   height: 600px;
 }
 
 .container {
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 .container_botao {
-    background-color: #f85757;
+    background-color: #4f0d0d;
     border-radius: 10px;
     padding: 15px;
+    color: var(--branco-pricipal);
+    display: block;
+    text-decoration: none;
+}
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-pricipal);
+}
+.container_aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+.container_titulo {
+    font-size: 35px;
+    font-weight: 700;
 }
